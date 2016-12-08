@@ -24,9 +24,9 @@ public class ReverseController
 		
 		String currentWord = userInput.nextLine();
 		
-		while(!currentWord.equals("<quit>"))
+		while(!currentWord.toLowerCase().equals("<quit>"))
 		{
-			if (currentWord.equals("<history>"))
+			if (currentWord.toLowerCase().equals("<history>"))
 			{
 				System.out.println("History of words you have made backwards");
 				System.out.println(historyList);

@@ -16,7 +16,7 @@ public class ReverseController
 	
 	public void start()
 	{
-		System.out.println("Instructions: ");
+		System.out.println("Instructions:");
 		System.out.println("To get the backwards form of a word please type your word and press enter.");
 		System.out.println("To see a list of the backwards words you have created enter <history>.");
 		System.out.println("To stop using this application enter <quit>");
